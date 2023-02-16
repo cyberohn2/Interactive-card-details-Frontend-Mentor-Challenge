@@ -214,7 +214,27 @@ label{
     margin: 0px auto 20px auto;
 }
 
-@media (max-width:500px){
+/* media queries for tablets */
+@media screen and (max-width: 900px){
+    #form{
+        margin-right: 5%;
+    }
+    .cards{
+        margin-left: 10%;
+    }
+    .front-card, .back-card{
+        width: 280px;
+        height:150px;
+    }
+    .card-num{
+        font-size:14px;
+    }
+    #holdername{
+        flex-basis: 60%;
+    }
+}
+/* MEDIA QUERIES FOR MOBILE*/
+@media screen and (max-width:600px){
     .background{
         height: 30vh;
         width: unset;
